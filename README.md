@@ -6,5 +6,7 @@
 このリポジトリは**自動生成**されます。直接編集しないでください
 （生成元の private リポジトリから上書きされます）。
 
-- ダッシュボード: `dashboard.html`
+- 公開URL: https://dashboard.quantlens-ai.com/
 - データ: `data/*.json`
+
+紹介LPは別リポジトリ（quantlens-site → https://quantlens-ai.com/）です。
