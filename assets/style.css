@@ -1,0 +1,217 @@
+/* ============================================================
+   QuantLens Dashboard — components
+   すべての色は tokens.css の変数経由。生のhexを書かないこと。
+   ============================================================ */
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--plane);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:14px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px 72px}
+
+/* ---------- header ---------- */
+.topbar{
+  border-bottom:1px solid var(--hairline);
+  background:linear-gradient(180deg, rgba(30,158,191,.05), transparent 70%), var(--plane);
+  position:sticky;top:0;z-index:20;
+  backdrop-filter:blur(8px);
+}
+.topbar-inner{
+  max-width:var(--maxw);margin:0 auto;padding:14px 24px;
+  display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.brand-mark{
+  width:26px;height:26px;border-radius:7px;flex:none;position:relative;
+  border:1px solid rgba(70,195,220,.5);
+  background:radial-gradient(circle at 32% 30%, rgba(70,195,220,.85), rgba(30,158,191,.15) 62%, transparent 70%);
+}
+.brand-mark::after{content:"";position:absolute;inset:7px;border-radius:50%;border:1px solid rgba(230,237,243,.55)}
+.brand-name{font-weight:700;font-size:16px;letter-spacing:.01em}
+.brand-name span{color:var(--brand-ui)}
+.meta{
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:12px;color:var(--ink-3);
+}
+.meta b{color:var(--ink-2);font-weight:500}
+/* 価格基準日：基準日の補足なので一段後退させ、gap も詰めて従属関係を示す */
+.meta-sub{margin-left:-12px;font-size:11px;color:var(--ink-3);opacity:.85}
+.meta-sub b{color:var(--ink-3);font-weight:500}
+/* 概算であることの注記。数値の直後に小さく添える */
+.approx{margin-left:8px;font-size:11px;color:var(--ink-3)}
+
+/* ---------- chip ---------- */
+.chip{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:3px 9px;border-radius:999px;
+  font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.02em;
+  border:1px solid transparent;white-space:nowrap;
+}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.chip.ok,
+.chip.bull,
+.chip.win  {color:var(--up);   background:var(--up-dim);   border-color:rgba(63,191,127,.3)}
+.chip.warn,
+.chip.freeze{color:var(--warn);background:var(--warn-dim); border-color:rgba(242,179,61,.32)}
+.chip.loss {color:var(--down); background:var(--down-dim); border-color:rgba(240,98,93,.28)}
+.chip.open {color:var(--brand-ui);background:var(--brand-dim);border-color:rgba(70,195,220,.32)}
+.chip.neutral{color:var(--ink-2);background:var(--surface-2);border-color:var(--hairline-2)}
+
+/* ---------- section heads ---------- */
+.sec{margin-top:var(--gap-sec)}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:14px}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+  color:var(--ink-3);text-transform:uppercase;flex:none;
+}
+.sec-title{font-size:17px;font-weight:600;letter-spacing:.01em;margin:0;flex:none}
+.sec-note{font-size:12px;color:var(--ink-3);margin-left:auto;text-align:right}
+.rule{height:1px;background:var(--hairline);flex:1 1 auto;transform:translateY(-3px)}
+
+/* ---------- cards ---------- */
+.card{background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r)}
+.card-head{
+  padding:14px var(--pad-card);border-bottom:1px solid var(--hairline);
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.card-title{font-size:14px;font-weight:600;margin:0}
+.card-body{padding:var(--pad-card)}
+
+/* ---------- KPI row ---------- */
+.kpis{
+  display:grid;gap:1px;margin-top:28px;
+  grid-template-columns:repeat(6,1fr);
+  background:var(--hairline);
+  border:1px solid var(--hairline);border-radius:var(--r);overflow:hidden;
+}
+.kpi{background:var(--surface);padding:16px 18px 18px}
+.kpi-label{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+/* 大きな数値には tabular-nums をかけない（等幅だと間延びする） */
+.kpi-value{font-size:26px;font-weight:600;line-height:1.25;margin-top:6px;letter-spacing:-.015em}
+.kpi-value small{font-size:15px;color:var(--ink-3);font-weight:600}
+.kpi-sub{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pos{color:var(--up)} .neg{color:var(--down)} .neu{color:var(--ink)}
+
+/* ---------- chart ---------- */
+.main-grid{display:grid;grid-template-columns:minmax(0,2.15fr) minmax(0,1fr);gap:20px}
+.legend{display:flex;align-items:center;gap:16px;margin-left:auto;flex-wrap:wrap}
+.lg{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:var(--ink-2)}
+.lg i{width:14px;height:2px;border-radius:1px;display:block;flex:none}
+.chart-wrap{position:relative}
+svg.chart{display:block;width:100%;height:auto;overflow:visible}
+.tt{
+  position:absolute;pointer-events:none;opacity:0;transition:opacity .12s;
+  background:var(--surface-2);border:1px solid var(--hairline-2);border-radius:8px;
+  padding:9px 11px;font-family:var(--mono);font-size:11.5px;line-height:1.6;
+  box-shadow:0 8px 24px rgba(0,0,0,.5);white-space:nowrap;z-index:5;
+}
+.tt .d{color:var(--ink-3);margin-bottom:3px}
+.tt .r{display:flex;justify-content:space-between;gap:16px;color:var(--ink-2)}
+.tt .r b{color:var(--ink);font-weight:500}
+.tt .sw{display:inline-block;width:8px;height:2px;vertical-align:middle;margin-right:6px}
+
+.toggle{
+  font-family:var(--mono);font-size:11px;color:var(--ink-2);
+  background:var(--surface-2);border:1px solid var(--hairline-2);
+  border-radius:6px;padding:4px 10px;cursor:pointer;
+}
+.toggle:hover{background:var(--surface-3);color:var(--ink)}
+.toggle:focus-visible{outline:2px solid var(--brand-ui);outline-offset:2px}
+
+/* ---------- system state rail ---------- */
+.layer{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--hairline)}
+.layer:first-child{padding-top:0}
+.layer:last-child{border-bottom:0;padding-bottom:0}
+.layer-n{
+  font-family:var(--mono);font-size:10px;color:var(--ink-3);
+  border:1px solid var(--hairline-2);border-radius:5px;
+  padding:1px 5px;height:fit-content;flex:none;letter-spacing:.04em;
+}
+.layer-b{flex:1;min-width:0}
+.layer-t{font-size:13px;font-weight:600;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.layer-d{font-size:12px;color:var(--ink-3);margin-top:3px;line-height:1.55}
+.layer-d code{font-family:var(--mono);color:var(--ink-2);font-size:11.5px}
+
+/* ---------- tables ---------- */
+.tscroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:500;text-align:left;
+  padding:10px 14px;background:var(--surface-2);
+  border-bottom:1px solid var(--hairline);white-space:nowrap;
+}
+tbody td{padding:11px 14px;border-bottom:1px solid var(--hairline);vertical-align:middle}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--surface-3)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+th.num{text-align:right}
+.tk{font-family:var(--mono);font-weight:600;font-size:13px;letter-spacing:.02em}
+.tk-name{font-size:11px;color:var(--ink-3);font-family:var(--sans);font-weight:400;display:block;line-height:1.3;white-space:nowrap}
+.dim{color:var(--ink-3)}
+.cmt{font-size:12px;color:var(--ink-2);line-height:1.6;min-width:300px}
+.mv{font-family:var(--mono);font-size:12px;white-space:nowrap}
+
+/* 損益セル：数値・符号・バーの向き・色の4重エンコード。
+   色が見えなくても方向と大小が読めるようにするための必須要素。 */
+.pl{display:flex;align-items:center;justify-content:flex-end;gap:10px}
+.pl-bar{width:54px;height:4px;border-radius:2px;background:var(--surface-3);position:relative;flex:none;overflow:hidden}
+.pl-bar i{position:absolute;top:0;bottom:0;border-radius:2px;display:block}
+
+/* スコアメーター：10段階のどこかを一瞬で伝える */
+.score{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.meter{display:flex;gap:2px}
+.meter span{width:4px;height:12px;border-radius:1px;background:var(--surface-3)}
+.meter span.on{background:var(--brand)}
+.score b{font-family:var(--mono);font-weight:500;font-size:12.5px;color:var(--ink-2)}
+
+/* ---------- tabs ---------- */
+.tabs{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.tab{
+  font-family:var(--mono);font-size:11px;color:var(--ink-3);
+  background:transparent;border:1px solid transparent;border-radius:6px;
+  padding:4px 11px;cursor:pointer;
+}
+.tab:hover{color:var(--ink-2);background:var(--surface-2)}
+.tab[aria-selected="true"]{color:var(--brand-ui);background:var(--brand-dim);border-color:rgba(70,195,220,.3)}
+.tab:focus-visible{outline:2px solid var(--brand-ui);outline-offset:2px}
+
+/* ---------- states ---------- */
+.empty{padding:28px 18px;text-align:center;color:var(--ink-3);font-size:13px}
+.error{
+  margin-top:28px;padding:16px 18px;border-radius:var(--r);
+  border:1px solid rgba(240,98,93,.35);background:var(--down-dim);color:var(--ink);
+}
+.error b{color:var(--down)}
+.error code{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.loading{opacity:.45;transition:opacity .2s}   /* 再取得中は前の描画を保持（スケルトンで点滅させない） */
+
+/* ---------- footer ---------- */
+.foot{
+  margin-top:44px;padding-top:18px;border-top:1px solid var(--hairline);
+  font-size:11.5px;color:var(--ink-3);display:flex;gap:18px;flex-wrap:wrap;
+}
+.foot b{color:var(--ink-2);font-weight:500}
+
+/* ---------- responsive ---------- */
+@media (max-width:1080px){
+  .kpis{grid-template-columns:repeat(3,1fr)}
+  .main-grid{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .wrap{padding:0 14px 56px}
+  .topbar-inner{padding:12px 14px}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .kpi-value{font-size:22px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

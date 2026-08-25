@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-08-21",
+  "price_date": "2026-08-21",
+  "provisional": true,
+  "weekly_as_of": "2026-08-21",
+  "period_start": "2026-05-01",
+  "updated_at": "2026-08-24 23:53 JST",
+  "frequency": "週次終値ベース",
+  "unit": "jpy",
+  "initial_capital": 1000000,
+  "position_size": 200000,
+  "equity": 1119511,
+  "total_return_pct": 11.95,
+  "benchmark_return_pct": 8.01,
+  "max_drawdown_pct": -12.25,
+  "max_dd_from": "2026-06-25",
+  "max_dd_to": "2026-08-20",
+  "win_rate_pct": 63.6,
+  "wins": 7,
+  "losses": 4,
+  "profit_factor": 2.46,
+  "avg_holding_days": 40.7,
+  "total_pl": 119511,
+  "realized_pl": 96707,
+  "unrealized_pl": 11110,
+  "positions": 4,
+  "max_positions": 5,
+  "regime": "BULL",
+  "entry_frozen": false,
+  "layers": [
+    {
+      "id": "L1",
+      "title": "機械スクリーニング",
+      "status": "ok",
+      "chip": "稼働",
+      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>9</code> 銘柄。"
+    },
+    {
+      "id": "L2",
+      "title": "セクター配分（月次制約）",
+      "status": "info",
+      "chip": null,
+      "detail_html": "優先 <code>XLF</code> <code>XLV</code> <code>XLK</code>　／　回避 <code>XLC</code> <code>XLU</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
+    },
+    {
+      "id": "L3",
+      "title": "マーケットレジーム",
+      "status": "ok",
+      "chip": "BULL",
+      "detail_html": "今週の適用レジームは <code>BULL</code>（月次判定は <code>NEUTRAL</code>）。SPY ret_63d=4.22% (&lt;5%), vs_sma50=0.38% (&lt;2%), regime_percentile_20d=33 (&lt;60). No BULL condition met. No BEAR trigger. NEUTRAL."
+    },
+    {
+      "id": "L4",
+      "title": "リスク制御",
+      "status": "ok",
+      "chip": "稼働",
+      "detail_html": "直近2週の損切りは <code>1</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
+    }
+  ]
+}

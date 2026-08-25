@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuantLens Terminal</title>
+<meta name="description" content="QuantLens 週次運用ダッシュボード">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔭</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+JP:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="./assets/tokens.css">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-name">Quant<span>Lens</span></div>
+    </div>
+    <div class="meta">
+      <span>基準日 <b id="asOf">—</b></span>
+      <span class="meta-sub" id="priceDate"></span>
+      <span>集計期間 <b id="period">—</b></span>
+      <span id="headChips" style="display:flex;gap:10px;flex-wrap:wrap"></span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap" id="app">
+
+  <!-- ============ KPI ============ -->
+  <section class="kpis" id="kpis" aria-label="サマリー指標"></section>
+
+  <!-- ============ 01 資金推移 + システム状態 ============ -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="eyebrow">01</span>
+      <h2 class="sec-title">資金推移</h2>
+      <div class="rule"></div>
+      <div class="sec-note">週次終値ベース · 手数料・税引前</div>
+    </div>
+    <div class="main-grid">
+      <div class="card">
+        <div class="card-head">
+          <h3 class="card-title">エクイティカーブ</h3>
+          <div class="legend">
+            <span class="lg"><i style="background:var(--brand)"></i>QuantLens</span>
+            <span class="lg"><i style="background:var(--bench)"></i>SPY (同額投資)</span>
+            <button class="toggle" id="tblBtn" aria-expanded="false">表で見る</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="chart-wrap" id="chartWrap">
+            <svg class="chart" id="equity" viewBox="0 0 1000 340"></svg>
+            <div class="tt" id="tt"></div>
+          </div>
+          <div id="equityTable" class="tscroll" hidden style="margin-top:16px"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h3 class="card-title">システム状態</h3></div>
+        <div class="card-body" id="layers"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 保有ポジション ============ -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="eyebrow">02</span>
+      <h2 class="sec-title">現在の保有ポジション</h2>
+      <div class="rule"></div>
+      <div class="sec-note" id="holdNote"></div>
+    </div>
+    <div class="card">
+      <div class="tscroll">
+        <table>
+          <thead><tr>
+            <th>銘柄</th>
+            <th>フェーズ</th>
+            <th class="num">エントリー日</th>
+            <th class="num">保有日数</th>
+            <th class="num">エントリー価格</th>
+            <th class="num">現在価格</th>
+            <th class="num">前日比</th>
+            <th class="num">損益</th>
+            <th class="num">損益額</th>
+            <th class="num">現在スコア</th>
+            <th class="num">直近20日</th>
+          </tr></thead>
+          <tbody id="holdBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 AIスコアランキング ============ -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="eyebrow">03</span>
+      <h2 class="sec-title">AIスコアランキング TOP10</h2>
+      <div class="rule"></div>
+      <div class="sec-note">全銘柄の機械スクリーニング結果</div>
+    </div>
+    <div class="card">
+      <div class="tscroll">
+        <table>
+          <thead><tr>
+            <th class="num">順位</th>
+            <th>銘柄</th>
+            <th class="num">今週</th>
+            <th class="num">前週</th>
+            <th class="num">順位変動</th>
+            <th>保有状況</th>
+            <th>コメント</th>
+          </tr></thead>
+          <tbody id="rankBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 取引履歴 ============ -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="eyebrow">04</span>
+      <h2 class="sec-title">取引履歴</h2>
+      <div class="rule"></div>
+      <div class="tabs" id="tradeTabs" role="tablist" aria-label="取引履歴の絞り込み"></div>
+    </div>
+    <div class="card">
+      <div class="tscroll">
+        <table>
+          <thead><tr>
+            <th>銘柄</th>
+            <th>ステータス</th>
+            <th class="num">エントリー日</th>
+            <th class="num">決済日</th>
+            <th class="num">保有日数</th>
+            <th class="num">エントリー価格</th>
+            <th class="num">決済 / 現在価格</th>
+            <th class="num">損益</th>
+            <th class="num">損益額</th>
+            <th>決済理由</th>
+          </tr></thead>
+          <tbody id="tradeBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script type="module" src="./assets/app.js"></script>
+</body>
+</html>
