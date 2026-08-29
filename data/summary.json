@@ -1,29 +1,29 @@
 {
   "as_of": "2026-08-28",
-  "price_date": "2026-08-28",
-  "provisional": true,
-  "weekly_as_of": "2026-08-21",
+  "price_date": "2026-08-27",
+  "provisional": false,
+  "weekly_as_of": "2026-08-28",
   "period_start": "2026-05-01",
-  "updated_at": "2026-08-29 12:13 JST",
+  "updated_at": "2026-08-29 13:09 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
   "position_size": 200000,
-  "equity": 1194852,
-  "total_return_pct": 19.49,
-  "benchmark_return_pct": 8.52,
+  "equity": 1197047,
+  "total_return_pct": 19.7,
+  "benchmark_return_pct": 8.76,
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
-  "win_rate_pct": 63.6,
+  "win_rate_pct": 58.3,
   "wins": 7,
-  "losses": 4,
-  "profit_factor": 2.46,
-  "avg_holding_days": 40.7,
-  "total_pl": 194852,
-  "realized_pl": 96707,
-  "unrealized_pl": 66723,
-  "positions": 4,
+  "losses": 5,
+  "profit_factor": 2.25,
+  "avg_holding_days": 39.7,
+  "total_pl": 197047,
+  "realized_pl": 90576,
+  "unrealized_pl": 75035,
+  "positions": 5,
   "max_positions": 5,
   "regime": "BULL",
   "entry_frozen": false,
@@ -33,7 +33,7 @@
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>9</code> 銘柄。"
+      "detail_html": "対象 <code>500</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>11</code> 銘柄。"
     },
     {
       "id": "L2",
@@ -54,7 +54,7 @@
       "title": "リスク制御",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "直近2週の損切りは <code>1</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
+      "detail_html": "直近2週の損切りは <code>0</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
     }
   ]
 }
