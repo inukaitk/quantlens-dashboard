@@ -4,7 +4,7 @@
   "provisional": true,
   "weekly_as_of": "2026-08-28",
   "period_start": "2026-05-01",
-  "updated_at": "2026-09-01 09:42 JST",
+  "updated_at": "2026-09-02 08:26 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
@@ -40,14 +40,14 @@
       "title": "セクター配分（月次制約）",
       "status": "info",
       "chip": null,
-      "detail_html": "優先 <code>XLF</code> <code>XLV</code> <code>XLK</code>　／　回避 <code>XLC</code> <code>XLU</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
+      "detail_html": "優先 <code>XLV</code> <code>XLE</code> <code>XLF</code>　／　回避 <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
     },
     {
       "id": "L3",
       "title": "マーケットレジーム",
       "status": "ok",
       "chip": "BULL",
-      "detail_html": "今週の適用レジームは <code>BULL</code>（月次判定は <code>NEUTRAL</code>）。SPY ret_63d=4.22% (&lt;5%), vs_sma50=0.38% (&lt;2%), regime_percentile_20d=33 (&lt;60). No BULL condition met. No BEAR trigger. NEUTRAL."
+      "detail_html": "今週の適用レジームは <code>BULL</code>（月次判定は <code>NEUTRAL</code>）。SPY ret_63d=+1.38% (&lt;5%), vs_sma50=+1.68% (&lt;2%), regime_percentile_20d=43 (&lt;60). No BULL condition met; no BEAR trigger. NEUTRAL."
     },
     {
       "id": "L4",
