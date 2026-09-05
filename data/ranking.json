@@ -1,112 +1,112 @@
 [
   {
     "rank": 1,
-    "prev_rank": 10,
+    "prev_rank": 1,
     "ticker": "ABNB",
     "name": "Airbnb",
     "score": 10,
-    "prev_score": 9,
+    "prev_score": 10,
     "held": true,
-    "action": "新規エントリー",
-    "comment": "ret_20d=+21.3%がret_63d/3=12.4%を大幅上回りモメンタム継続。rs_63d=+34.7%で相対強度も高水準"
+    "action": "継続保有",
+    "comment": "rs_4w+20.9%・含益+0.5%、保有1週で最低期間未満"
   },
   {
     "rank": 2,
-    "prev_rank": 1,
-    "ticker": "AXON",
-    "name": "Axon Enterprise",
+    "prev_rank": 34,
+    "ticker": "IQV",
+    "name": "IQVIA",
     "score": 10,
-    "prev_score": 10,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +39.1%・直近20日 +16.4%・対SPY相対強度 +36.7%。"
+    "prev_score": 9,
+    "held": true,
+    "action": "新規エントリー",
+    "comment": "ret_63d+50.4%・ret_20d+19.0%でモメンタム継続、XLV優先セクター、conviction=10"
   },
   {
     "rank": 3,
-    "prev_rank": 3,
-    "ticker": "CRL",
-    "name": "Charles River Laboratories",
+    "prev_rank": 6,
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
     "score": 10,
     "prev_score": 10,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +63.5%・直近20日 +26.3%・対SPY相対強度 +61.0%。"
+    "comment": "3ヶ月リターン +45.1%・直近20日 +30.2%・対SPY相対強度 +42.7%。"
   },
   {
     "rank": 4,
-    "prev_rank": 30,
-    "ticker": "DASH",
-    "name": "DoorDash",
-    "score": 10,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +48.0%・直近20日 +17.4%・対SPY相対強度 +45.5%。"
-  },
-  {
-    "rank": 5,
-    "prev_rank": 34,
-    "ticker": "HPE",
-    "name": "Hewlett Packard Enterprise",
-    "score": 10,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +42.4%・直近20日 +15.4%・対SPY相対強度 +40.0%。"
-  },
-  {
-    "rank": 6,
-    "prev_rank": 38,
-    "ticker": "MPC",
-    "name": "Marathon Petroleum",
-    "score": 10,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +44.6%・直近20日 +15.8%・対SPY相対強度 +42.2%。"
-  },
-  {
-    "rank": 7,
-    "prev_rank": 44,
-    "ticker": "PANW",
-    "name": "Palo Alto Networks",
-    "score": 10,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +48.5%・直近20日 +17.5%・対SPY相対強度 +46.1%。"
-  },
-  {
-    "rank": 8,
-    "prev_rank": 45,
+    "prev_rank": 8,
     "ticker": "PSX",
     "name": "Phillips 66",
     "score": 10,
+    "prev_score": 10,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +39.5%・直近20日 +23.7%・対SPY相対強度 +37.1%。"
+  },
+  {
+    "rank": 5,
+    "prev_rank": 44,
+    "ticker": "HOOD",
+    "name": "Robinhood Markets",
+    "score": 10,
     "prev_score": 9,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +37.3%・直近20日 +16.0%・対SPY相対強度 +34.9%。"
+    "comment": "3ヶ月リターン +41.2%・直近20日 +37.5%・対SPY相対強度 +38.8%。"
   },
   {
-    "rank": 9,
-    "prev_rank": 104,
+    "rank": 6,
+    "prev_rank": 9,
     "ticker": "CRM",
     "name": "Salesforce",
     "score": 10,
-    "prev_score": 8,
+    "prev_score": 10,
     "held": true,
-    "action": "新規エントリー",
-    "comment": "ret_20d=+39.5%がret_63d/3=14.4%を約3倍上回り直近モメンタムが加速。rs_63d=+40.6%で高い相対強度"
+    "action": "継続保有",
+    "comment": "rs_4w+41.0%・含益+4.9%、最強相対強度で継続保有"
   },
   {
-    "rank": 10,
-    "prev_rank": 7,
+    "rank": 7,
+    "prev_rank": 10,
     "ticker": "VEEV",
     "name": "Veeva Systems",
     "score": 10,
     "prev_score": 10,
     "held": true,
     "action": "継続保有",
-    "comment": "保有1週でmin_holding_weeks未満、rs_4w=+36.0%で極めて良好"
+    "comment": "rs_4w+32.6%・含益+13.5%、強い相対強度で継続保有"
+  },
+  {
+    "rank": 8,
+    "prev_rank": 53,
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "score": 10,
+    "prev_score": 9,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +41.8%・直近20日 +22.6%・対SPY相対強度 +39.4%。"
+  },
+  {
+    "rank": 9,
+    "prev_rank": 11,
+    "ticker": "WDAY",
+    "name": "Workday",
+    "score": 10,
+    "prev_score": 10,
+    "held": true,
+    "action": "継続保有",
+    "comment": "rs_4w+20.7%・含益+4.9%、保有2週で最低期間未満"
+  },
+  {
+    "rank": 10,
+    "prev_rank": 58,
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "score": 9,
+    "prev_score": 8,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +20.8%・直近20日 +6.7%・対SPY相対強度 +18.4%。"
   }
 ]
