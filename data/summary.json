@@ -1,31 +1,31 @@
 {
-  "as_of": "2026-09-10",
+  "as_of": "2026-09-11",
   "price_date": "2026-09-10",
-  "provisional": true,
-  "weekly_as_of": "2026-09-04",
+  "provisional": false,
+  "weekly_as_of": "2026-09-11",
   "period_start": "2026-05-01",
-  "updated_at": "2026-09-12 08:24 JST",
+  "updated_at": "2026-09-12 10:02 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
   "position_size": 200000,
   "equity": 1124604,
   "total_return_pct": 12.46,
-  "benchmark_return_pct": 6.89,
+  "benchmark_return_pct": 8.01,
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
-  "win_rate_pct": 58.3,
+  "win_rate_pct": 53.8,
   "wins": 7,
-  "losses": 5,
-  "profit_factor": 2.25,
-  "avg_holding_days": 39.7,
+  "losses": 6,
+  "profit_factor": 1.8,
+  "avg_holding_days": 37.7,
   "total_pl": 124604,
-  "realized_pl": 90576,
-  "unrealized_pl": -7586,
-  "positions": 6,
+  "realized_pl": 72409,
+  "unrealized_pl": 10581,
+  "positions": 5,
   "max_positions": 5,
-  "regime": "NEUTRAL",
+  "regime": "BEAR",
   "entry_frozen": false,
   "layers": [
     {
@@ -33,21 +33,21 @@
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>9</code> 銘柄。"
+      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>6</code> 銘柄。"
     },
     {
       "id": "L2",
       "title": "セクター配分（月次制約）",
       "status": "info",
       "chip": null,
-      "detail_html": "優先 <code>XLV</code> <code>XLE</code> <code>XLF</code>　／　回避 <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>9</code>。"
+      "detail_html": "優先 <code>XLV</code> <code>XLE</code> <code>XLF</code>　／　回避 <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
     },
     {
       "id": "L3",
       "title": "マーケットレジーム",
-      "status": "info",
-      "chip": "NEUTRAL",
-      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>。SPY ret_63d=+1.38% (&lt;5%), vs_sma50=+1.68% (&lt;2%), regime_percentile_20d=43 (&lt;60). No BULL condition met; no BEAR trigger. NEUTRAL."
+      "status": "warn",
+      "chip": "BEAR",
+      "detail_html": "今週の適用レジームは <code>BEAR</code>（月次判定は <code>NEUTRAL</code>）。SPY ret_63d=+1.38% (&lt;5%), vs_sma50=+1.68% (&lt;2%), regime_percentile_20d=43 (&lt;60). No BULL condition met; no BEAR trigger. NEUTRAL."
     },
     {
       "id": "L4",
