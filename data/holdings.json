@@ -4,69 +4,55 @@
     "name": "CrowdStrike",
     "phase": 2,
     "entry_date": "2026-06-05",
-    "holding_days": 105,
+    "holding_days": 112,
     "entry_price": 179.77,
     "current_price": 259.67,
-    "chg_1d": -1.1,
+    "chg_1d": null,
     "pl_pct": 44.4,
     "pl_amount": 88887,
     "score": 10,
-    "ret_20d": 21.9
-  },
-  {
-    "ticker": "WDAY",
-    "name": "Workday",
-    "phase": 1,
-    "entry_date": "2026-08-21",
-    "holding_days": 28,
-    "entry_price": 197.32,
-    "current_price": 190.99,
-    "chg_1d": -0.7,
-    "pl_pct": -3.2,
-    "pl_amount": -6416,
-    "score": 9,
-    "ret_20d": 4.5
+    "ret_20d": 37.3
   },
   {
     "ticker": "VEEV",
     "name": "Veeva Systems",
     "phase": 1,
     "entry_date": "2026-08-21",
-    "holding_days": 28,
+    "holding_days": 35,
     "entry_price": 250.53,
     "current_price": 274.84,
-    "chg_1d": 1.5,
+    "chg_1d": null,
     "pl_pct": 9.7,
     "pl_amount": 19407,
-    "score": 8,
-    "ret_20d": 8.6
+    "score": 9,
+    "ret_20d": 11.4
   },
   {
     "ticker": "CRM",
     "name": "Salesforce",
     "phase": 1,
     "entry_date": "2026-08-28",
-    "holding_days": 21,
+    "holding_days": 28,
     "entry_price": 252.05,
     "current_price": 238.22,
-    "chg_1d": 0.3,
+    "chg_1d": null,
     "pl_pct": -5.5,
     "pl_amount": -10974,
-    "score": 10,
-    "ret_20d": 17.8
+    "score": 9,
+    "ret_20d": 15.8
   },
   {
     "ticker": "IQV",
     "name": "IQVIA",
     "phase": 1,
     "entry_date": "2026-09-04",
-    "holding_days": 14,
+    "holding_days": 21,
     "entry_price": 271.62,
     "current_price": 275.02,
-    "chg_1d": 2.7,
+    "chg_1d": null,
     "pl_pct": 1.3,
     "pl_amount": 2503,
     "score": 9,
-    "ret_20d": 12.2
+    "ret_20d": 6.0
   }
 ]

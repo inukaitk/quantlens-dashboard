@@ -1,112 +1,112 @@
 [
   {
     "rank": 1,
-    "prev_rank": 237,
-    "ticker": "CRWD",
-    "name": "CrowdStrike",
-    "score": 10,
-    "prev_score": 4,
-    "held": true,
-    "action": "新規エントリー",
-    "comment": "conviction最高位、ret_20d+21.9%でモメンタム継続中、rs_63d+40.7%と相対強度トップ"
-  },
-  {
-    "rank": 2,
-    "prev_rank": 11,
-    "ticker": "DELL",
-    "name": "Dell Technologies",
+    "prev_rank": 7,
+    "ticker": "A",
+    "name": "Agilent Technologies",
     "score": 10,
     "prev_score": 9,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +40.3%・直近20日 +34.5%・対SPY相対強度 +37.1%。"
+    "comment": "3ヶ月リターン +31.3%・直近20日 +11.7%・対SPY相対強度 +26.6%。"
+  },
+  {
+    "rank": 2,
+    "prev_rank": 2,
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "score": 10,
+    "prev_score": 10,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +30.9%・直近20日 +15.6%・対SPY相対強度 +26.2%。"
   },
   {
     "rank": 3,
     "prev_rank": 1,
-    "ticker": "HPQ",
-    "name": "HP",
-    "score": 10,
-    "prev_score": 10,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +42.7%・直近20日 +15.7%・対SPY相対強度 +39.5%。"
-  },
-  {
-    "rank": 4,
-    "prev_rank": 5,
-    "ticker": "CRM",
-    "name": "Salesforce",
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
     "score": 10,
     "prev_score": 10,
     "held": true,
-    "action": "継続保有",
-    "comment": "rs_4w+18.7%と相対強度は極めて強く保有継続"
+    "action": "新規エントリー",
+    "comment": "ret_20d+37.3%がret_63d/3の+17.7%を大幅超過、モメンタム加速中。rs_63d+48.3%で対SPY相対強度も最上位級。conviction=10でNEUTRAL閾値を満たす。"
   },
   {
-    "rank": 5,
-    "prev_rank": 84,
-    "ticker": "RVTY",
-    "name": "Revvity",
+    "rank": 4,
+    "prev_rank": 13,
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
     "score": 10,
-    "prev_score": 7,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +45.0%・直近20日 +29.0%・対SPY相対強度 +41.8%。"
-  },
-  {
-    "rank": 6,
-    "prev_rank": 7,
-    "ticker": "APA",
-    "name": "APA",
-    "score": 9,
     "prev_score": 9,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +32.7%・直近20日 +7.3%・対SPY相対強度 +29.5%。"
+    "comment": "3ヶ月リターン +36.0%・直近20日 +15.0%・対SPY相対強度 +31.2%。"
+  },
+  {
+    "rank": 5,
+    "prev_rank": 18,
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "score": 10,
+    "prev_score": 9,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +43.2%・直近20日 +35.0%・対SPY相対強度 +38.5%。"
+  },
+  {
+    "rank": 6,
+    "prev_rank": 20,
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "score": 10,
+    "prev_score": 9,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +36.7%・直近20日 +14.7%・対SPY相対強度 +31.9%。"
   },
   {
     "rank": 7,
-    "prev_rank": 146,
-    "ticker": "A",
-    "name": "Agilent Technologies",
-    "score": 9,
-    "prev_score": 5,
+    "prev_rank": 5,
+    "ticker": "RVTY",
+    "name": "Revvity",
+    "score": 10,
+    "prev_score": 10,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +21.8%・直近20日 +5.3%・対SPY相対強度 +18.6%。"
+    "comment": "3ヶ月リターン +42.6%・直近20日 +20.7%・対SPY相対強度 +37.9%。"
   },
   {
     "rank": 8,
-    "prev_rank": 20,
-    "ticker": "BBY",
-    "name": "Best Buy",
+    "prev_rank": 29,
+    "ticker": "AAPL",
+    "name": "Apple",
     "score": 9,
     "prev_score": 8,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +32.5%・直近20日 +7.1%・対SPY相対強度 +29.3%。"
+    "comment": "3ヶ月リターン +22.1%・直近20日 +7.2%・対SPY相対強度 +17.3%。"
   },
   {
     "rank": 9,
-    "prev_rank": 8,
+    "prev_rank": 32,
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "score": 9,
+    "prev_score": 8,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +27.2%・直近20日 +7.7%・対SPY相対強度 +22.4%。"
+  },
+  {
+    "rank": 10,
+    "prev_rank": 9,
     "ticker": "BK",
     "name": "",
     "score": 9,
     "prev_score": 9,
     "held": false,
     "action": "見送り",
-    "comment": "3ヶ月リターン +25.7%・直近20日 +5.3%・対SPY相対強度 +22.5%。"
-  },
-  {
-    "rank": 10,
-    "prev_rank": 9,
-    "ticker": "CF",
-    "name": "CF Industries",
-    "score": 9,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +26.7%・直近20日 +11.8%・対SPY相対強度 +23.5%。"
+    "comment": "3ヶ月リターン +25.7%・直近20日 +5.3%・対SPY相対強度 +21.0%。"
   }
 ]
