@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-09-29",
-  "price_date": "2026-09-29",
+  "as_of": "2026-09-30",
+  "price_date": "2026-09-30",
   "provisional": true,
   "weekly_as_of": "2026-09-25",
   "period_start": "2026-05-01",
-  "updated_at": "2026-10-01 09:39 JST",
+  "updated_at": "2026-10-02 09:58 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
   "position_size": 200000,
-  "equity": 1193138,
-  "total_return_pct": 19.31,
-  "benchmark_return_pct": 9.19,
+  "equity": 1208288,
+  "total_return_pct": 20.83,
+  "benchmark_return_pct": 8.97,
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
@@ -20,9 +20,9 @@
   "losses": 7,
   "profit_factor": 1.68,
   "avg_holding_days": 37.5,
-  "total_pl": 193138,
+  "total_pl": 208288,
   "realized_pl": 65993,
-  "unrealized_pl": 91533,
+  "unrealized_pl": 102538,
   "positions": 4,
   "max_positions": 5,
   "regime": "NEUTRAL",
@@ -40,14 +40,14 @@
       "title": "セクター配分（月次制約）",
       "status": "info",
       "chip": null,
-      "detail_html": "優先 <code>XLV</code> <code>XLE</code> <code>XLF</code>　／　回避 <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>9</code>。"
+      "detail_html": "優先 <code>XLK</code> <code>XLV</code> <code>XLE</code>　／　回避 <code>XLI</code> <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>9</code>。"
     },
     {
       "id": "L3",
       "title": "マーケットレジーム",
       "status": "info",
       "chip": "NEUTRAL",
-      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>。SPY ret_63d=+1.38% (&lt;5%), vs_sma50=+1.68% (&lt;2%), regime_percentile_20d=43 (&lt;60). No BULL condition met; no BEAR trigger. NEUTRAL."
+      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>。SPY ret_63d=+2.52% (&lt;5%), vs_sma50=+0.19% (&lt;2%), regime_percentile_20d=34 (&lt;60); no BULL condition met. No BEAR trigger breached. NEUTRAL assigned."
     },
     {
       "id": "L4",
