@@ -4,41 +4,55 @@
     "name": "CrowdStrike",
     "phase": 2,
     "entry_date": "2026-06-05",
-    "holding_days": 119,
+    "holding_days": 126,
     "entry_price": 179.77,
     "current_price": 263.01,
-    "chg_1d": -0.9,
+    "chg_1d": null,
     "pl_pct": 46.3,
     "pl_amount": 92603,
     "score": 10,
-    "ret_20d": 30.8
+    "ret_20d": 25.9
   },
   {
     "ticker": "VEEV",
     "name": "Veeva Systems",
     "phase": 1,
     "entry_date": "2026-08-21",
-    "holding_days": 42,
+    "holding_days": 49,
     "entry_price": 250.53,
     "current_price": 284.84,
-    "chg_1d": 0.8,
+    "chg_1d": null,
     "pl_pct": 13.7,
     "pl_amount": 27390,
     "score": 9,
-    "ret_20d": 0.4
+    "ret_20d": 9.1
   },
   {
     "ticker": "IQV",
     "name": "IQVIA",
     "phase": 1,
     "entry_date": "2026-09-04",
-    "holding_days": 28,
+    "holding_days": 35,
     "entry_price": 271.62,
     "current_price": 258.88,
-    "chg_1d": 0.3,
+    "chg_1d": null,
     "pl_pct": -4.7,
     "pl_amount": -9381,
     "score": 8,
-    "ret_20d": -1.2
+    "ret_20d": 0.6
+  },
+  {
+    "ticker": "PTC",
+    "name": "PTC",
+    "phase": 1,
+    "entry_date": "2026-10-09",
+    "holding_days": 0,
+    "entry_price": 193.73,
+    "current_price": 193.73,
+    "chg_1d": null,
+    "pl_pct": 0.0,
+    "pl_amount": 0,
+    "score": 10,
+    "ret_20d": 50.5
   }
 ]
