@@ -1,39 +1,6 @@
 [
   {
     "rank": 1,
-    "prev_rank": 25,
-    "ticker": "CRL",
-    "name": "Charles River Laboratories",
-    "score": 10,
-    "prev_score": 8,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +27.6%・直近20日 +9.2%・対SPY相対強度 +24.8%。"
-  },
-  {
-    "rank": 2,
-    "prev_rank": 1,
-    "ticker": "CRWD",
-    "name": "CrowdStrike",
-    "score": 10,
-    "prev_score": 10,
-    "held": true,
-    "action": "新規エントリー",
-    "comment": "ret_20d=+25.9%でモメンタム継続、rs_63d=+37.7%と対SPY優位性も高い"
-  },
-  {
-    "rank": 3,
-    "prev_rank": 11,
-    "ticker": "DELL",
-    "name": "Dell Technologies",
-    "score": 10,
-    "prev_score": 9,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +32.1%・直近20日 +13.4%・対SPY相対強度 +29.3%。"
-  },
-  {
-    "rank": 4,
     "prev_rank": 7,
     "ticker": "ACN",
     "name": "Accenture",
@@ -44,15 +11,48 @@
     "comment": "3ヶ月リターン +49.8%・直近20日 +17.1%・対SPY相対強度 +47.1%。"
   },
   {
+    "rank": 2,
+    "prev_rank": 25,
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "score": 10,
+    "prev_score": 8,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +27.6%・直近20日 +9.2%・対SPY相対強度 +24.8%。"
+  },
+  {
+    "rank": 3,
+    "prev_rank": 1,
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "score": 10,
+    "prev_score": 10,
+    "held": true,
+    "action": "新規エントリー",
+    "comment": "ret_63d+40.5%・ret_20d+25.9%でモメンタム継続中。XLK優先セクター、conviction10最上位。"
+  },
+  {
+    "rank": 4,
+    "prev_rank": 11,
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "score": 10,
+    "prev_score": 9,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +32.1%・直近20日 +13.4%・対SPY相対強度 +29.3%。"
+  },
+  {
     "rank": 5,
     "prev_rank": 2,
     "ticker": "HPE",
     "name": "Hewlett Packard Enterprise",
     "score": 10,
     "prev_score": 10,
-    "held": false,
-    "action": "見送り",
-    "comment": "3ヶ月リターン +46.3%・直近20日 +28.6%・対SPY相対強度 +43.5%。"
+    "held": true,
+    "action": "新規エントリー",
+    "comment": "ret_63d+46.3%・ret_20d+28.6%と強いモメンタム継続。XLK優先セクターで相対強度も高い。"
   },
   {
     "rank": 6,
@@ -89,17 +89,6 @@
   },
   {
     "rank": 9,
-    "prev_rank": 38,
-    "ticker": "PTC",
-    "name": "PTC",
-    "score": 10,
-    "prev_score": 8,
-    "held": true,
-    "action": "新規エントリー",
-    "comment": "ret_20d=+50.5%がret_63d/3=+18.8%を大幅上回り、モメンタム加速中のXLK銘柄"
-  },
-  {
-    "rank": 10,
     "prev_rank": 5,
     "ticker": "RVTY",
     "name": "Revvity",
@@ -108,5 +97,16 @@
     "held": false,
     "action": "見送り",
     "comment": "3ヶ月リターン +34.7%・直近20日 +25.8%・対SPY相対強度 +31.9%。"
+  },
+  {
+    "rank": 10,
+    "prev_rank": 23,
+    "ticker": "APA",
+    "name": "APA",
+    "score": 9,
+    "prev_score": 8,
+    "held": false,
+    "action": "見送り",
+    "comment": "3ヶ月リターン +36.6%・直近20日 +2.1%・対SPY相対強度 +33.8%。"
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
-    "ticker": "PTC",
-    "name": "PTC",
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
     "status": "open",
     "entry_date": "2026-10-09",
     "exit_date": null,
     "holding_days": 0,
-    "entry_price": 193.73,
-    "exit_price": 194.39,
-    "pl_pct": 0.3,
-    "pl_amount": 681,
+    "entry_price": 71.0,
+    "exit_price": 71.0,
+    "pl_pct": 0.0,
+    "pl_amount": 0,
     "reason": "保有中"
   },
   {
@@ -20,9 +20,9 @@
     "exit_date": null,
     "holding_days": 35,
     "entry_price": 271.62,
-    "exit_price": 262.21,
-    "pl_pct": -3.5,
-    "pl_amount": -6929,
+    "exit_price": 258.88,
+    "pl_pct": -4.7,
+    "pl_amount": -9381,
     "reason": "保有中"
   },
   {
@@ -33,9 +33,9 @@
     "exit_date": null,
     "holding_days": 49,
     "entry_price": 250.53,
-    "exit_price": 295.85,
-    "pl_pct": 18.1,
-    "pl_amount": 36179,
+    "exit_price": 284.84,
+    "pl_pct": 13.7,
+    "pl_amount": 27390,
     "reason": "保有中"
   },
   {
