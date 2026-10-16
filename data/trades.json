@@ -7,9 +7,9 @@
     "exit_date": null,
     "holding_days": 0,
     "entry_price": 71.0,
-    "exit_price": 63.11,
-    "pl_pct": -11.1,
-    "pl_amount": -22225,
+    "exit_price": 58.63,
+    "pl_pct": -17.4,
+    "pl_amount": -34845,
     "reason": "保有中"
   },
   {
@@ -20,9 +20,9 @@
     "exit_date": null,
     "holding_days": 35,
     "entry_price": 271.62,
-    "exit_price": 262.01,
-    "pl_pct": -3.5,
-    "pl_amount": -7076,
+    "exit_price": 271.04,
+    "pl_pct": -0.2,
+    "pl_amount": -427,
     "reason": "保有中"
   },
   {
@@ -33,9 +33,9 @@
     "exit_date": null,
     "holding_days": 49,
     "entry_price": 250.53,
-    "exit_price": 297.35,
-    "pl_pct": 18.7,
-    "pl_amount": 37377,
+    "exit_price": 313.03,
+    "pl_pct": 24.9,
+    "pl_amount": 49894,
     "reason": "保有中"
   },
   {
@@ -46,9 +46,9 @@
     "exit_date": null,
     "holding_days": 126,
     "entry_price": 179.77,
-    "exit_price": 249.29,
-    "pl_pct": 38.7,
-    "pl_amount": 77339,
+    "exit_price": 244.57,
+    "pl_pct": 36.0,
+    "pl_amount": 72088,
     "reason": "保有中（Phase 2・トレーリングストップ監視）"
   },
   {
