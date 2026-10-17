@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "price_date": "2026-10-15",
-  "provisional": true,
-  "weekly_as_of": "2026-10-09",
+  "provisional": false,
+  "weekly_as_of": "2026-10-16",
   "period_start": "2026-05-01",
-  "updated_at": "2026-10-17 08:44 JST",
+  "updated_at": "2026-10-17 10:16 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
@@ -15,17 +15,17 @@
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
-  "win_rate_pct": 46.7,
+  "win_rate_pct": 43.8,
   "wins": 7,
-  "losses": 8,
-  "profit_factor": 1.49,
-  "avg_holding_days": 37.3,
+  "losses": 9,
+  "profit_factor": 1.13,
+  "avg_holding_days": 35.4,
   "total_pl": 173149,
-  "realized_pl": 53805,
-  "unrealized_pl": 86710,
+  "realized_pl": 18960,
+  "unrealized_pl": 121555,
   "positions": 4,
   "max_positions": 5,
-  "regime": "BULL",
+  "regime": "NEUTRAL",
   "entry_frozen": false,
   "layers": [
     {
@@ -33,28 +33,28 @@
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>9</code> 銘柄。"
+      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>4</code> 銘柄。"
     },
     {
       "id": "L2",
       "title": "セクター配分（月次制約）",
       "status": "info",
       "chip": null,
-      "detail_html": "優先 <code>XLK</code> <code>XLV</code> <code>XLE</code>　／　回避 <code>XLI</code> <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
+      "detail_html": "優先 <code>XLK</code> <code>XLV</code> <code>XLE</code>　／　回避 <code>XLI</code> <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>9</code>。"
     },
     {
       "id": "L3",
       "title": "マーケットレジーム",
-      "status": "ok",
-      "chip": "BULL",
-      "detail_html": "今週の適用レジームは <code>BULL</code>（月次判定は <code>NEUTRAL</code>）。SPY ret_63d=+2.52% (&lt;5%), vs_sma50=+0.19% (&lt;2%), regime_percentile_20d=34 (&lt;60); no BULL condition met. No BEAR trigger breached. NEUTRAL assigned."
+      "status": "info",
+      "chip": "NEUTRAL",
+      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>。SPY ret_63d=+2.52% (&lt;5%), vs_sma50=+0.19% (&lt;2%), regime_percentile_20d=34 (&lt;60); no BULL condition met. No BEAR trigger breached. NEUTRAL assigned."
     },
     {
       "id": "L4",
       "title": "リスク制御",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "直近2週の損切りは <code>0</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
+      "detail_html": "直近2週の損切りは <code>1</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
     }
   ]
 }
