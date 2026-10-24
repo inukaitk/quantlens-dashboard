@@ -1,11 +1,24 @@
 [
   {
+    "ticker": "APA",
+    "name": "APA",
+    "status": "open",
+    "entry_date": "2026-10-23",
+    "exit_date": null,
+    "holding_days": 0,
+    "entry_price": 49.44,
+    "exit_price": 49.44,
+    "pl_pct": 0.0,
+    "pl_amount": 0,
+    "reason": "保有中"
+  },
+  {
     "ticker": "ACN",
     "name": "Accenture",
     "status": "open",
     "entry_date": "2026-10-16",
     "exit_date": null,
-    "holding_days": 0,
+    "holding_days": 7,
     "entry_price": 224.92,
     "exit_price": 258.74,
     "pl_pct": 15.0,
@@ -18,7 +31,7 @@
     "status": "open",
     "entry_date": "2026-09-04",
     "exit_date": null,
-    "holding_days": 42,
+    "holding_days": 49,
     "entry_price": 271.62,
     "exit_price": 278.32,
     "pl_pct": 2.5,
@@ -31,25 +44,25 @@
     "status": "open",
     "entry_date": "2026-08-21",
     "exit_date": null,
-    "holding_days": 56,
+    "holding_days": 63,
     "entry_price": 250.53,
     "exit_price": 322.55,
     "pl_pct": 28.7,
     "pl_amount": 57494,
-    "reason": "保有中"
+    "reason": "保有中（Phase 2・トレーリングストップ監視）"
   },
   {
     "ticker": "CRWD",
     "name": "CrowdStrike",
-    "status": "open",
+    "status": "win",
     "entry_date": "2026-06-05",
-    "exit_date": null,
-    "holding_days": 133,
+    "exit_date": "2026-10-23",
+    "holding_days": 140,
     "entry_price": 179.77,
     "exit_price": 237.94,
     "pl_pct": 32.4,
     "pl_amount": 64712,
-    "reason": "保有中（Phase 2・トレーリングストップ監視）"
+    "reason": "Phase 2 トレーリングストップ"
   },
   {
     "ticker": "HPE",

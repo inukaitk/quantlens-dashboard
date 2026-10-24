@@ -1,58 +1,58 @@
 [
   {
-    "ticker": "CRWD",
-    "name": "CrowdStrike",
-    "phase": 2,
-    "entry_date": "2026-06-05",
-    "holding_days": 133,
-    "entry_price": 179.77,
-    "current_price": 237.94,
-    "chg_1d": -0.6,
-    "pl_pct": 32.4,
-    "pl_amount": 64712,
-    "score": 6,
-    "ret_20d": -0.5
-  },
-  {
     "ticker": "VEEV",
     "name": "Veeva Systems",
-    "phase": 1,
+    "phase": 2,
     "entry_date": "2026-08-21",
-    "holding_days": 56,
+    "holding_days": 63,
     "entry_price": 250.53,
     "current_price": 322.55,
-    "chg_1d": 0.6,
+    "chg_1d": null,
     "pl_pct": 28.7,
     "pl_amount": 57494,
-    "score": 10,
-    "ret_20d": 18.7
+    "score": 9,
+    "ret_20d": 17.4
   },
   {
     "ticker": "IQV",
     "name": "IQVIA",
     "phase": 1,
     "entry_date": "2026-09-04",
-    "holding_days": 42,
+    "holding_days": 49,
     "entry_price": 271.62,
     "current_price": 278.32,
-    "chg_1d": 0.6,
+    "chg_1d": null,
     "pl_pct": 2.5,
     "pl_amount": 4933,
     "score": 9,
-    "ret_20d": 0.6
+    "ret_20d": 1.2
   },
   {
     "ticker": "ACN",
     "name": "Accenture",
     "phase": 1,
     "entry_date": "2026-10-16",
-    "holding_days": 0,
+    "holding_days": 7,
     "entry_price": 224.92,
     "current_price": 258.74,
-    "chg_1d": 7.7,
+    "chg_1d": null,
     "pl_pct": 15.0,
     "pl_amount": 30073,
     "score": 10,
-    "ret_20d": 18.2
+    "ret_20d": 45.8
+  },
+  {
+    "ticker": "APA",
+    "name": "APA",
+    "phase": 1,
+    "entry_date": "2026-10-23",
+    "holding_days": 0,
+    "entry_price": 49.44,
+    "current_price": 49.44,
+    "chg_1d": null,
+    "pl_pct": 0.0,
+    "pl_amount": 0,
+    "score": 10,
+    "ret_20d": 13.2
   }
 ]
