@@ -4,55 +4,69 @@
     "name": "Veeva Systems",
     "phase": 2,
     "entry_date": "2026-08-21",
-    "holding_days": 63,
+    "holding_days": 70,
     "entry_price": 250.53,
     "current_price": 310.34,
-    "chg_1d": -2.4,
+    "chg_1d": null,
     "pl_pct": 23.9,
     "pl_amount": 47747,
     "score": 9,
-    "ret_20d": 17.4
+    "ret_20d": 10.1
   },
   {
     "ticker": "IQV",
     "name": "IQVIA",
     "phase": 1,
     "entry_date": "2026-09-04",
-    "holding_days": 49,
+    "holding_days": 56,
     "entry_price": 271.62,
     "current_price": 275.06,
-    "chg_1d": -1.4,
+    "chg_1d": null,
     "pl_pct": 1.3,
     "pl_amount": 2533,
-    "score": 9,
-    "ret_20d": 1.2
+    "score": 8,
+    "ret_20d": 5.5
   },
   {
     "ticker": "ACN",
     "name": "Accenture",
     "phase": 1,
     "entry_date": "2026-10-16",
-    "holding_days": 7,
+    "holding_days": 14,
     "entry_price": 224.92,
     "current_price": 247.22,
-    "chg_1d": 1.6,
+    "chg_1d": null,
     "pl_pct": 9.9,
     "pl_amount": 19829,
     "score": 10,
-    "ret_20d": 45.8
+    "ret_20d": 16.4
   },
   {
     "ticker": "APA",
     "name": "APA",
     "phase": 1,
     "entry_date": "2026-10-23",
-    "holding_days": 0,
+    "holding_days": 7,
     "entry_price": 49.44,
     "current_price": 51.51,
-    "chg_1d": 0.8,
+    "chg_1d": null,
     "pl_pct": 4.2,
     "pl_amount": 8374,
     "score": 10,
-    "ret_20d": 13.2
+    "ret_20d": 18.9
+  },
+  {
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "phase": 1,
+    "entry_date": "2026-10-30",
+    "holding_days": 0,
+    "entry_price": 376.1,
+    "current_price": 376.1,
+    "chg_1d": null,
+    "pl_pct": 0.0,
+    "pl_amount": 0,
+    "score": 10,
+    "ret_20d": 31.1
   }
 ]
