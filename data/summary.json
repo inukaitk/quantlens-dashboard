@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-10-30",
-  "price_date": "2026-10-29",
-  "provisional": false,
+  "as_of": "2026-11-02",
+  "price_date": "2026-11-02",
+  "provisional": true,
   "weekly_as_of": "2026-10-30",
   "period_start": "2026-05-01",
-  "updated_at": "2026-10-31 11:12 JST",
+  "updated_at": "2026-11-03 11:59 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
   "position_size": 200000,
-  "equity": 1210088,
-  "total_return_pct": 21.01,
-  "benchmark_return_pct": 9.93,
+  "equity": 1169483,
+  "total_return_pct": 16.95,
+  "benchmark_return_pct": 7.46,
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
@@ -20,9 +20,9 @@
   "losses": 9,
   "profit_factor": 1.58,
   "avg_holding_days": 41.6,
-  "total_pl": 210088,
+  "total_pl": 169483,
   "realized_pl": 83672,
-  "unrealized_pl": 78483,
+  "unrealized_pl": 44923,
   "positions": 5,
   "max_positions": 5,
   "regime": "NEUTRAL",
@@ -40,14 +40,14 @@
       "title": "セクター配分（月次制約）",
       "status": "info",
       "chip": null,
-      "detail_html": "優先 <code>XLK</code> <code>XLV</code> <code>XLE</code>　／　回避 <code>XLI</code> <code>XLU</code> <code>XLY</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>9</code>。"
+      "detail_html": "優先 <code>XLE</code> <code>XLV</code> <code>XLP</code>　／　回避 <code>XLC</code> <code>XLI</code> <code>XLK</code>。保有上限 <code>5</code> 枠、conviction 閾値 <code>なし</code>。"
     },
     {
       "id": "L3",
       "title": "マーケットレジーム",
       "status": "info",
       "chip": "NEUTRAL",
-      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>。SPY ret_63d=+2.52% (&lt;5%), vs_sma50=+0.19% (&lt;2%), regime_percentile_20d=34 (&lt;60); no BULL condition met. No BEAR trigger breached. NEUTRAL assigned."
+      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>（月次判定は <code>BEAR</code>）。SPY regime_percentile_20d=15 triggers BEAR (&lt;=20). ret_63d≈0 and vs_sma50=-1.44% confirm weak momentum. QQQ also at percentile=4, broad market deterioration evident."
     },
     {
       "id": "L4",
