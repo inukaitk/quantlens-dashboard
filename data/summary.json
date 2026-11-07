@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "price_date": "2026-11-05",
-  "provisional": true,
-  "weekly_as_of": "2026-10-30",
+  "provisional": false,
+  "weekly_as_of": "2026-11-06",
   "period_start": "2026-05-01",
-  "updated_at": "2026-11-07 10:00 JST",
+  "updated_at": "2026-11-07 11:42 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
@@ -15,25 +15,25 @@
   "max_drawdown_pct": -12.25,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-08-20",
-  "win_rate_pct": 47.1,
+  "win_rate_pct": 42.1,
   "wins": 8,
-  "losses": 9,
-  "profit_factor": 1.58,
-  "avg_holding_days": 41.6,
+  "losses": 11,
+  "profit_factor": 1.13,
+  "avg_holding_days": 38.3,
   "total_pl": 140186,
-  "realized_pl": 83672,
-  "unrealized_pl": 20720,
-  "positions": 5,
+  "realized_pl": 26018,
+  "unrealized_pl": 78374,
+  "positions": 3,
   "max_positions": 5,
-  "regime": "NEUTRAL",
-  "entry_frozen": false,
+  "regime": "BEAR",
+  "entry_frozen": true,
   "layers": [
     {
       "id": "L1",
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>5</code> 銘柄。"
+      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>10</code> 銘柄。"
     },
     {
       "id": "L2",
@@ -45,16 +45,16 @@
     {
       "id": "L3",
       "title": "マーケットレジーム",
-      "status": "info",
-      "chip": "NEUTRAL",
-      "detail_html": "今週の適用レジームは <code>NEUTRAL</code>（月次判定は <code>BEAR</code>）。SPY regime_percentile_20d=15 triggers BEAR (&lt;=20). ret_63d≈0 and vs_sma50=-1.44% confirm weak momentum. QQQ also at percentile=4, broad market deterioration evident."
+      "status": "warn",
+      "chip": "BEAR",
+      "detail_html": "今週の適用レジームは <code>BEAR</code>。SPY regime_percentile_20d=15 triggers BEAR (&lt;=20). ret_63d≈0 and vs_sma50=-1.44% confirm weak momentum. QQQ also at percentile=4, broad market deterioration evident."
     },
     {
       "id": "L4",
       "title": "リスク制御",
-      "status": "ok",
-      "chip": "稼働",
-      "detail_html": "直近2週の損切りは <code>1</code> 件（発動閾値 <code>2</code> 件）。新規エントリーは通常どおり可能。"
+      "status": "warn",
+      "chip": "エントリー凍結",
+      "detail_html": "直近2週で損切り <code>2</code> 件を検知。新規エントリーを停止中（解除予定 <code>2026-W47</code>）。保有中ポジションの決済ルールは通常どおり稼働。"
     }
   ]
 }
