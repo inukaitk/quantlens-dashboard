@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "price_date": "2026-11-12",
-  "provisional": true,
-  "weekly_as_of": "2026-11-06",
+  "provisional": false,
+  "weekly_as_of": "2026-11-13",
   "period_start": "2026-05-01",
-  "updated_at": "2026-11-14 10:31 JST",
+  "updated_at": "2026-11-14 12:01 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
@@ -33,7 +33,7 @@
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>501</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>10</code> 銘柄。"
+      "detail_html": "対象 <code>502</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>6</code> 銘柄。"
     },
     {
       "id": "L2",

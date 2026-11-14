@@ -4,41 +4,41 @@
     "name": "Veeva Systems",
     "phase": 2,
     "entry_date": "2026-08-21",
-    "holding_days": 77,
+    "holding_days": 84,
     "entry_price": 250.53,
     "current_price": 302.42,
-    "chg_1d": -0.8,
+    "chg_1d": null,
     "pl_pct": 20.7,
     "pl_amount": 41424,
-    "score": 9,
-    "ret_20d": 8.9
+    "score": 6,
+    "ret_20d": -3.4
   },
   {
     "ticker": "IQV",
     "name": "IQVIA",
     "phase": 1,
     "entry_date": "2026-09-04",
-    "holding_days": 63,
+    "holding_days": 70,
     "entry_price": 271.62,
     "current_price": 271.11,
-    "chg_1d": -1.2,
+    "chg_1d": null,
     "pl_pct": -0.2,
     "pl_amount": -376,
     "score": 7,
-    "ret_20d": 2.3
+    "ret_20d": 0.0
   },
   {
     "ticker": "ACN",
     "name": "Accenture",
     "phase": 1,
     "entry_date": "2026-10-16",
-    "holding_days": 21,
+    "holding_days": 28,
     "entry_price": 224.92,
     "current_price": 249.95,
-    "chg_1d": -1.5,
+    "chg_1d": null,
     "pl_pct": 11.1,
     "pl_amount": 22257,
-    "score": 10,
-    "ret_20d": 27.3
+    "score": 9,
+    "ret_20d": 11.1
   }
 ]
