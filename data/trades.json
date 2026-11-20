@@ -7,9 +7,9 @@
     "exit_date": null,
     "holding_days": 28,
     "entry_price": 224.92,
-    "exit_price": 227.49,
-    "pl_pct": 1.1,
-    "pl_amount": 2285,
+    "exit_price": 218.58,
+    "pl_pct": -2.8,
+    "pl_amount": -5638,
     "reason": "保有中"
   },
   {

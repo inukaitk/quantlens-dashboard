@@ -34,10 +34,10 @@
     "entry_date": "2026-10-16",
     "holding_days": 28,
     "entry_price": 224.92,
-    "current_price": 227.49,
-    "chg_1d": -4.9,
-    "pl_pct": 1.1,
-    "pl_amount": 2285,
+    "current_price": 218.58,
+    "chg_1d": -3.9,
+    "pl_pct": -2.8,
+    "pl_amount": -5638,
     "score": 9,
     "ret_20d": 11.1
   }
