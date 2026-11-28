@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-11-20",
-  "price_date": "2026-11-19",
+  "as_of": "2026-11-27",
+  "price_date": "2026-11-25",
   "provisional": false,
-  "weekly_as_of": "2026-11-20",
+  "weekly_as_of": "2026-11-27",
   "period_start": "2026-05-01",
-  "updated_at": "2026-11-28 12:24 JST",
+  "updated_at": "2026-11-28 13:41 JST",
   "frequency": "週次終値ベース",
   "unit": "jpy",
   "initial_capital": 1000000,
   "position_size": 200000,
   "equity": 994213,
   "total_return_pct": -0.58,
-  "benchmark_return_pct": 2.28,
+  "benchmark_return_pct": 0.39,
   "max_drawdown_pct": -21.9,
   "max_dd_from": "2026-06-25",
   "max_dd_to": "2026-11-19",
@@ -33,7 +33,7 @@
       "title": "機械スクリーニング",
       "status": "ok",
       "chip": "稼働",
-      "detail_html": "対象 <code>502</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>0</code> 銘柄。"
+      "detail_html": "対象 <code>502</code> 銘柄をスコアリング。スコア <code>10/10</code> は <code>2</code> 銘柄。"
     },
     {
       "id": "L2",
@@ -54,7 +54,7 @@
       "title": "リスク制御",
       "status": "warn",
       "chip": "エントリー凍結",
-      "detail_html": "直近2週で損切り <code>2</code> 件を検知。新規エントリーを停止中（解除予定 <code>2026-W49</code>）。保有中ポジションの決済ルールは通常どおり稼働。"
+      "detail_html": "直近2週で損切り <code>0</code> 件を検知。新規エントリーを停止中（解除予定 <code>2026-W49</code>）。保有中ポジションの決済ルールは通常どおり稼働。"
     }
   ]
 }
